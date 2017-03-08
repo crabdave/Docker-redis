@@ -4,6 +4,6 @@ redis-dev:
   restart: always
   privileged: true
   ports:
-    - "15790:6379"
+    - "6379:6379"
   volumes:
     - ./data:/data
